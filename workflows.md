@@ -4,7 +4,7 @@
 ## 说明
 本文不是一篇git教程式的文章，本文写作的目的是 **制定一个大家认可的通用规范，提供基于git多分支模型工作流的一般性指导。** 
 
-这仅是一篇初稿，肯定有许多的不足及有待提升之处。请在 [new issue]() 给出你的建议或者在 [issue list]() 进行讨论。
+这仅是一篇初稿，肯定有许多的不足及有待提升之处。请在 [new issue](http://gitlab.baidu.com/scloud-fe/workflows/issues/new) 给出你的建议或者在 [issue list](http://gitlab.baidu.com/scloud-fe/workflows/issues) 进行讨论。
 
 提issue时，请遵循以下格式
 
@@ -12,6 +12,7 @@
 - [git][质疑]dev开支采用简写有利缩短分支名
 - [git][投票]dev vs develop
 
+同时，为issue贴上合适的 *labels* 是一个好习惯！
 
 ## 参考文章
 
