@@ -29,23 +29,23 @@
 
 [1 正文](#1)
 
-    [1.1 场景](#1-1)
+　　[1.1 场景](#1-1)
 
-    [1.2 解决思路](#1-2)
+　　[1.2 解决思路](#1-2)
 
-    [1.3 master分支](#1-3-master)
+　　[1.3 master分支](#1-3-master)
 
-    [1.4 develop分支](#1-4-develop)
+　　[1.4 develop分支](#1-4-develop)
 
-    [1.5 maint分支](#1-5-maint)
+　　[1.5 maint分支](#1-5-maint)
 
-    [1.6 feature/{{feature-id}}分支](#1-6-feature-feature-id)
+　　[1.6 feature/{{feature-id}}分支](#1-6-feature-feature-id)
 
-    [1.7 release/{{release-version}}分支](#1-7-release-release-version)
+　　[1.7 release/{{release-version}}分支](#1-7-release-release-version)
 
-    [1.8 bugfix/{{author}}/{{what}}分支](#1-8-bugfix-author-what)
+　　[1.8 bugfix/{{author}}/{{what}}分支](#1-8-bugfix-author-what)
 
-    [1.9 {{author}}/{{what}}分支](#1-9-author-what)
+　　[1.9 {{author}}/{{what}}分支](#1-9-author-what)
 
 [2 Next](#2-next)
 
@@ -211,6 +211,3 @@ rd在feature分支上迁出`{{author}}/bugfix/{{what}}`分支进行修复工作�
 - milestone及需求分解
 - 合作文档的编写
 - ...
-
-
-
