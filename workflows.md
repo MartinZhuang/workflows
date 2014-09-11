@@ -33,21 +33,21 @@
 
     [1.2 解决思路](#1-2)
 
-    [1.3 master分支](#1-3)
+    [1.3 master分支](#1-3-master)
 
-    [1.4 develop分支](#1-4)
+    [1.4 develop分支](#1-4-develop)
 
-    [1.5 maint分支](#1-5)
+    [1.5 maint分支](#1-5-maint)
 
-    [1.6 feature/{{feature-id}}分支](#1-6)
+    [1.6 feature/{{feature-id}}分支](#1-6-feature-feature-id)
 
-    [1.7 release/{{release-version}}分支](#1-7)
+    [1.7 release/{{release-version}}分支](#1-7-release-release-version)
 
-    [1.8 bugfix/{{author}}/{{what}}分支](#1-8)
+    [1.8 bugfix/{{author}}/{{what}}分支](#1-8-bugfix-author-what)
 
-    [1.9 {{author}}/{{what}}分支](#1-9)
+    [1.9 {{author}}/{{what}}分支](#1-9-author-what)
 
-[2 Next](#2)
+[2 Next](#2-next)
 
 ## 1 正文
 
