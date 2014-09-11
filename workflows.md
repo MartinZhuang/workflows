@@ -27,17 +27,27 @@
 
 ## 目录
 
-[正文](#1)
-    [场景](#1-1)
-    [解决思路](#1-2)
-    [master分支](#1-3)
-    [develop分支](#1-4)
-    [maint分支](#1-5)
-    [feature/{{feature-id}}分支](#1-6)
-    [release/{{release-version}}分支](#1-7)
-    [bugfix/{{author}}/{{what}}分支](#1-8)
-    [{{author}}/{{what}}分支](#1-9)
-[Next](#2)
+[1 正文](#1)
+
+    [1.1 场景](#1-1)
+
+    [1.2 解决思路](#1-2)
+
+    [1.3 master分支](#1-3)
+
+    [1.4 develop分支](#1-4)
+
+    [1.5 maint分支](#1-5)
+
+    [1.6 feature/{{feature-id}}分支](#1-6)
+
+    [1.7 release/{{release-version}}分支](#1-7)
+
+    [1.8 bugfix/{{author}}/{{what}}分支](#1-8)
+
+    [1.9 {{author}}/{{what}}分支](#1-9)
+
+[2 Next](#2)
 
 ## 1 正文
 
