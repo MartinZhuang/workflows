@@ -47,7 +47,9 @@
 
 　　[1.9 {{author}}/{{what}}分支](#1-9-author-what)
 
-[2 Next](#2-next)
+[2 一般原则](#2)
+
+[3 Next](#3-next)
 
 ## 1 正文
 
@@ -153,11 +155,11 @@
 
 ![](assets/release-branch-1.png)
 
-若预发布分支在测试的过程中 **没有遇到问题** ，比如预发布分支`release/v1.0.0`经测试未发现问题，则将此预发布分支分别合并进`master`分支和`develop`分支，如下图所示：
+若预发布分支在测试的过程中 **没有遇到问题** ，比如预发布分支`release/v1.0.0`经测试未发现问题，则将此预发布分支分别 **合并进`master`分支和`develop`分支** ，如下图所示：
 
 ![](assets/release-branch-2.png)
 
-若预发布分支在测试的过程中 **遇到问题** ，比如预发布分支`release/v1.0.0`经测试发现了问题，则此时QA及bug发现者应该在issue list中贡献相应的bug描述，并分配相应的rd进行修复。
+若预发布分支在测试的过程中 **遇到问题** ，比如预发布分支`release/v1.0.1`经测试发现了问题，则此时QA及bug发现者应该在issue list中贡献相应的bug描述，并分配相应的rd进行修复。
 
 rd在feature分支上迁出`{{author}}/bugfix/{{what}}`分支进行修复工作，修复完毕之后合并进feature分支，最后将修复后的feature分支再合并进之前出问题的预发布分支再次进行测试。如下图所示：
 
@@ -168,8 +170,8 @@ rd在feature分支上迁出`{{author}}/bugfix/{{what}}`分支进行修复工作�
 - `release/{{release-version}}`分支都是 **由`develop`分支迁出**
 - 将需要发布的 **任意多个** 功能分支`feature/{{feature-id}}`合并进预发布分支进行测试
     - 可以灵活的针对需要发布或者测试的feature分支进行
-- 测试过程中遇到问题，要追溯到相关的`feature/{{feature-id}}`分支上并迁出`bugfix/{{author}}/{{what}}`分支（ *此分支更多的相关说明，请参见`bugfix/{{author}}/{{what}}`分支* ）进行修复工作
-- 测试通过之后，将预发布分支合并到`master`分支和`develop`分支中
+- 测试过程中遇到问题，要追溯到相关的`feature/{{feature-id}}`分支上并迁出`bugfix/{{author}}/{{what}}`分支（ *此分支更多的相关说明，请参见[`bugfix/{{author}}/{{what}}`分支](#1-8-bugfix-author-what)* ）进行修复工作
+- 测试通过之后，将预发布分支分别合并到`master`分支和`develop`分支中
 - **视具体情况** 删除预发布分支和feature分支
 
 ### 1.8 bugfix/{{author}}/{{what}}分支
@@ -201,9 +203,17 @@ rd在feature分支上迁出`{{author}}/bugfix/{{what}}`分支进行修复工作�
 - rd在`{{author}}/{{what}}`分支上完成具体实现后，可以merge到相应的`feature`分支进行自测。
 - `{{author}}/{{what}}`分支一般来说依赖`{{author}}`变量进行追溯，如需必要请勿修改他人的实现分支
 
+## 2 一般原则
+
+- 明确 **LTS** 分支与 **临时** 分支之间的所属关系
+- 若无必要，请勿在他人的个人分支上工作
+- 常用`git branch -a | grep {{author}}`管理自己名下的分支
+- 一般而言，`master`, `develop`, `maint`, `feature-{{feature-id}}`之间不推荐相互merge
+- ...
 
 
-## 2 next
+
+## 3 next
 
 接下来我们将会陆续放出工作流中涉及到的方方面面，
 
