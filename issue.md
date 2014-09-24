@@ -8,7 +8,8 @@
 
 ## ChangeLog
 
-9/12/2014 --- create
+- 2014/9/12
+    - create
 
 ## 目录
 
