@@ -77,7 +77,6 @@
     ```
 
     **说明**，
-
     1. `url`: **`String`** 标识需要探测的url地址，url可以不用带协议
 
 - Method
@@ -99,7 +98,6 @@
     ```
 
     **说明** ，
-
     1. `data.cdn_used`: **`Boolean`** 表示特定url是否使用了相关cdn服务
     2. `data.cdn_provider`: **`String`** cdn服务商名称
     3. `data.dns_provider`: **`String`** dns服务商名称
