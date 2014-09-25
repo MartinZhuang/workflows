@@ -41,11 +41,11 @@
 
 milestone确立后，接下来的工作即是需求分解。其实就是抽象出本次迭代具体要做什么事情。
 
-需求分解之后，我们将会得到一系列的需求点（ *feature point* ），之后针对各个需求点我们在 *issues* 中提出issue，并指定 *assigneer* 。这样每一个需求点都和相应的rd建立了联系。方便接下来的开发工作。
+需求分解之后，我们将会得到一系列的需求点（ *feature point* ），之后针对各个需求点我们在 *issues* 中提出issue，并指定 *assignee* 。这样每一个需求点都和相应的rd建立了联系。方便接下来的开发工作。
 
 ### 3 创建需求点issue
 
-创建feature point issue时，提供一些必要的说明，重要的是指定 *assigneer* 和贴上合适的标签。
+创建feature point issue时，提供一些必要的说明，重要的是指定 *assignee* 和贴上合适的标签。
 
 关于issues的labels，一般在开发阶段有如下几个常用的标签，
 
@@ -58,7 +58,7 @@ labels最忌讳的就是：取名随意、缺乏管理、数量泛滥
 
 ### 4 需求点的实现及变更
 
-issue的assigneer可以在 *comment* 中给出一些实现过程中遇到的问题以及解决方案，可以 *@someone* 进行讨论等。
+issue的assignee可以在 *comment* 中给出一些实现过程中遇到的问题以及解决方案，可以 *@someone* 进行讨论等。
 
 当某一个feature point发生变更时，应该在此issue的 *comment* 中进行详细说明，并以 *@someone* 的方式指出所有参与需求变更的人员。
 

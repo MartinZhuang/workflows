@@ -21,7 +21,7 @@
     - 1 issue的创建
     - 2 issue的标题
     - 3 issue的描述
-    - 4 issue的assigneer
+    - 4 issue的assignee
     - 5 issue的milestone
     - 6 issue的labels
     - 7 issue的关闭
@@ -35,7 +35,7 @@
 
 - 规范 *issue* 的标题
 - 针对不同类型的issue，尽量给出详尽的issue*描述（ *description* ）
-- 一般情况下，不允许创建没有 *assigneer* （责任人）的issue
+- 一般情况下，不允许创建没有 *assignee* （责任人）的issue
 - 一般情况下，不允许创建没有 *milestone* （里程碑）的issue
 - 尽量为你的issue贴上适合的 *labels* （标签）
 - ...
@@ -70,9 +70,9 @@ github上 *contributors* 人数较多的开源项目中，有一种比较好的i
 
 可见，清晰的issue描述是至关重要的。（ *如有必要，可以使用`Markdown`语法，作一个图文并茂的描述就更好了* ）
 
-### 4 issue的assigneer
+### 4 issue的assignee
 
-一般情况下，我们不允许创建一个不明确指定 *assigneer* 的issue。理论上一个issue都应该和一个 **责任人** 相关联。（期间变更 *assigneer* 当然是允许的）
+一般情况下，我们不允许创建一个不明确指定 *assignee* 的issue。理论上一个issue都应该和一个 **责任人** 相关联。（期间变更 *assignee* 当然是允许的）
 
 ### 5 issue的milestone
 
@@ -108,19 +108,19 @@ issue的labels最忌讳： *取名随意* 、 *缺乏管理* 、 *数量泛滥*
 
 ### 7 issue的关闭
 
-当一个issue的生命周期结束之后，issue的 *assigneer* 应该及时的将其关闭！
+当一个issue的生命周期结束之后，issue的 *assignee* 应该及时的将其关闭！
 
 这里，有一点需要提一下，
 
-针对`bug`类的issue，我们现在的做法是，在完成相关修复之后，变更 *assigneer* ，将其指定为相关的QA，然后QA再去进行测试回归。
+针对`bug`类的issue，我们现在的做法是，在完成相关修复之后，变更 *assignee* ，将其指定为相关的QA，然后QA再去进行测试回归。
 
-我个人觉得 **变更issue的assigneer为相关的测试者不是一个好的举措！** ，因为， *assigneer* 的作用是为issue指定相关的责任人，如果在修复完毕之后将其指定为QA，这样最后会造成这样一种后果，就是 **所有`bug`类的 *assigneer* 都是 QA** ！
+我个人觉得 **变更issue的assignee为相关的测试者不是一个好的举措！** ，因为， *assignee* 的作用是为issue指定相关的责任人，如果在修复完毕之后将其指定为QA，这样最后会造成这样一种后果，就是 **所有`bug`类的 *assignee* 都是 QA** ！
 
 **这样就很不利于`bug`类issue的回溯！**
 
 推荐的做法，
 
-issue的 *assigneer* 在修复完毕之后，可以在issue的 *comment* 中 **`@QA`** ，将相关的测试者加入到issue的 *participants* （参与者）中，这样相关的QA就会收到通知邮件，然后去做相应的测试工作，测试完毕之后在 *comment* 中留下测试结果。
+issue的 *assignee* 在修复完毕之后，可以在issue的 *comment* 中 **`@QA`** ，将相关的测试者加入到issue的 *participants* （参与者）中，这样相关的QA就会收到通知邮件，然后去做相应的测试工作，测试完毕之后在 *comment* 中留下测试结果。
 
 ### 8 在milestone中管理issue
 

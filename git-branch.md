@@ -173,7 +173,7 @@ rd在feature分支上迁出`{{author}}/bugfix/{{what}}`分支进行修复工作�
 
 其中`{{what}}`变量一般跟随 **issue-id** ，修复完毕之后，将bugfix分支合并进相应的feature分支。
 
-比如上图中 *issue88* 的assigneer应该在相应的feature分支迁出bugfix分支 `bugfix/gejiawen/issue88`
+比如上图中 *issue88* 的assignee应该在相应的feature分支迁出bugfix分支 `bugfix/gejiawen/issue88`
 
 ### 1.9 {{author}}/{{what}}分支
 
