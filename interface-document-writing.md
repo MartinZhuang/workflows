@@ -54,37 +54,52 @@
 ### 1 detectCDN&url={url}
 
 - Tags
-**async** **get**
+ 
+    **async** **get**
+
 - Description
-探测某一url是否使用了cdn服务。
+
+    探测某一url是否使用了cdn服务。
+
 - Changelog
+
     - 2014/9/9
         - 创建
     - 2014/9/10
         - 更新返回值说明
+
 - Parameters
-```javascript
-{
-    "url": "www.baidu.com"
-}
-```
-**说明**，
-    1. `url`: **`String`** 标识需要探测的url地址，url可以不用带协议
-- Method
-**GET**
-- Return
-```javascript
-{
-    "code": 200,
-    "message": "detect cdn successfully.",
-    "data": {
-        "cdn_used": true,
-        "cdn_provider": "xxx",
-        "dns_provider": "xxx"
+
+    ```javascript
+    {
+        "url": "www.baidu.com"
     }
-}
-```
-**说明** ，
+    ```
+
+    **说明**，
+
+    1. `url`: **`String`** 标识需要探测的url地址，url可以不用带协议
+
+- Method
+
+    **GET**
+
+- Return
+
+    ```javascript
+    {
+        "code": 200,
+        "message": "detect cdn successfully.",
+        "data": {
+            "cdn_used": true,
+            "cdn_provider": "xxx",
+            "dns_provider": "xxx"
+        }
+    }
+    ```
+
+    **说明** ，
+
     1. `data.cdn_used`: **`Boolean`** 表示特定url是否使用了相关cdn服务
     2. `data.cdn_provider`: **`String`** cdn服务商名称
     3. `data.dns_provider`: **`String`** dns服务商名称
