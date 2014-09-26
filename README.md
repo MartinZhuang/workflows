@@ -56,6 +56,8 @@
 - [一种稍微复杂](git-branch.md)
 - [一种稍微简单](git-branch-2.md)
 
+经讨论，web这边将会采用第二种模型。
+
 ### 2 基于milestone的需求管理及分解
 
 [here](requirements-base-on-milestone.md)

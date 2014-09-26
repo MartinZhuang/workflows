@@ -14,6 +14,8 @@
     - create
 - 2014/9/24
     - update
+- 2014/9/26
+    - update *labels* 的组成及分类
 
 ## 目录
 
@@ -106,6 +108,31 @@ issue的labels最忌讳： *取名随意* 、 *缺乏管理* 、 *数量泛滥*
 
 需要注意的一点是，issue的 *labels*  **不要随意创建** ！
 
+
+-------
+
+**更新**，经讨论，针对issue的 *labels* 作如下更新，
+
+*labels* 将由三个部分组成： **分类** 、 **优先级** 、 **状态**
+
+- **分类** 表示一个 *issue* 的分类，通常有如下四种，
+    - `feature` 标识此issue是一项待实现的功能
+    - `bug` 标识此issue是一个bug
+    - `enhancement` 此issue将会描述一些待提升的问题，比如性能优化等方面
+    - `feedback` 此issue内容为用户的反馈
+- **优先级** 表示 *issue* 的轻重缓急程度，
+    - `primary` 最紧急的需求或者改动，需要第一优先级处理
+    - `urgency` 紧急的需求或者改动
+    - `normal` 优先级低于紧急事务
+    - `slave` 最低优先级的事务
+- **状态** 表示 *issue* 的处于何种状态中，
+    - `open` 
+    - `inprogrss` 
+    - `testing` 
+    - `confirmed` 经过QA的测试之后，确认已无问题，打上`confirmed`标签，然后就可以安全的 *close* 此issue了
+
+所以，在对 *issue* 进行操作时应该实时更新其 *labels* 。
+
 ### 7 issue的关闭
 
 当一个issue的生命周期结束之后，issue的 *assignee* 应该及时的将其关闭！
@@ -121,6 +148,11 @@ issue的labels最忌讳： *取名随意* 、 *缺乏管理* 、 *数量泛滥*
 推荐的做法，
 
 issue的 *assignee* 在修复完毕之后，可以在issue的 *comment* 中 **`@QA`** ，将相关的测试者加入到issue的 *participants* （参与者）中，这样相关的QA就会收到通知邮件，然后去做相应的测试工作，测试完毕之后在 *comment* 中留下测试结果。
+
+------------
+
+**更新** ，可能考虑到QA测试的压力，在通知QA进行测试的时候，同时将 *assignee* 指定为相关测试者。QA在完成相关测试之后，将 *assignee* 复原。
+
 
 ### 8 在milestone中管理issue
 
